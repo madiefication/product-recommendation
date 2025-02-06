@@ -21,7 +21,6 @@ body {
     justify-content: center;
     gap: 20px;
     overflow-x: auto;
-    justify-content: space-between;
     flex-wrap: nowrap;
 }
 .product {
