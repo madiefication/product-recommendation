@@ -110,8 +110,14 @@ body {
     color: white;
 }
 .product-list {
-    display: flex; /* Arranges children (products) in a row */
-    justify-content: space-between; /* Spreads out the products evenly */
-    gap: 20px; /* Adds space between the products */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; 
 }
 
+.product-list {
+    display: flex; 
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: nowrap; 
+}
