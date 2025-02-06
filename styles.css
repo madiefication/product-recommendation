@@ -1,4 +1,4 @@
-/* General Styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,7 +7,6 @@ body {
     text-align: center;
 }
 
-/* Recommendation Section */
 .recommendations {
     padding: 20px;
 }
@@ -21,9 +20,8 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: nowrap; /* Prevents wrapping, forcing all items in a single row */
-    overflow-x: auto; /* Allows horizontal scrolling if necessary */
-}
+    flex-wrap: nowrap; 
+    overflow-x: auto;
 
 .product {
     background-color: white;
@@ -32,7 +30,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 220px;
-    flex-shrink: 0; /* Prevents shrinking of product items */
+    flex-shrink: 0; 
 }
 
 .product img {
