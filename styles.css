@@ -109,3 +109,9 @@ body {
     background-color: grey;
     color: white;
 }
+.product-list {
+    display: flex; /* Arranges children (products) in a row */
+    justify-content: space-between; /* Spreads out the products evenly */
+    gap: 20px; /* Adds space between the products */
+}
+
