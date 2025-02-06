@@ -23,7 +23,8 @@ body {
     width: 100%;
     flex-direction: row; 
     overflow-x: auto;
-
+    justify-content: space-between;
+}
 .product {
     background-color: white;
     padding: 15px;
@@ -108,15 +109,4 @@ body {
     background-color: grey;
     color: white;
 }
-.product-list {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px; 
-}
 
-.product-list {
-    display: flex; 
-    justify-content: space-between;
-    gap: 20px;
-    flex-wrap: nowrap; 
-}
