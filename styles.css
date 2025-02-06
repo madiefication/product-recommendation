@@ -8,20 +8,21 @@ body {
 }
 
 /* Recommendation Section */
-.recommendation {
+.recommendations {
     padding: 20px;
 }
 
-.recommendation h2 {
+.recommendations h2 {
     font-size: 28px;
     margin-bottom: 20px;
 }
 
-.products {
+.product-list {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap; /* Prevents wrapping, forcing all items in a single row */
+    overflow-x: auto; /* Allows horizontal scrolling if necessary */
 }
 
 .product {
@@ -31,6 +32,7 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: center;
     width: 220px;
+    flex-shrink: 0; /* Prevents shrinking of product items */
 }
 
 .product img {
@@ -74,7 +76,7 @@ body {
     margin-top: 40px;
 }
 
-.newsletter h2 {
+.newsletter h3 {
     font-size: 24px;
     margin-bottom: 15px;
 }
