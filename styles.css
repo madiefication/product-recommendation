@@ -20,7 +20,7 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
-    flex-wrap: nowrap; 
+    flex-direction: column; 
     overflow-x: auto;
 
 .product {
